@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+  <TalendMetadata:DatabaseConnection xmi:id="_dCOVUKRTEeiyopaW82V6Ig" name="connection_to_DB" id="_OZ-5kKRTEeiyopaW82V6Ig" label="connection_to_DB" dataPackage="_15_dIKR0EeiyopaW82V6Ig" ContextMode="true" ContextId="_b_shUKRTEeiyopaW82V6Ig" contextName="Default" DatabaseType="Oracle with service name" DriverClass="oracle.jdbc.OracleDriver" URL="jdbc:oracle:thin:@(description=(address=(protocol=tcp)(host=localhost)(port=1521))(connect_data=(service_name=orcl)))" dbVersionString="ORACLE_12" Port="context.connection_to_DB_Port" Username="context.connection_to_DB_Login" Password="context.connection_to_DB_Password" ServerName="context.connection_to_DB_Server" DatasourceName="" FileFieldName="" SID="context.connection_to_DB_ServiceName" SqlSynthax="" StringQuote="" NullChar="" DbmsId="oracle_id" ProductId="ORACLE" AdditionalParams="context.connection_to_DB_AdditionalParams" StandardSQL="true" SQLMode="false" UiSchema="context.connection_to_DB_Schema">
+    <taggedValue xmi:id="_dCPjcKRTEeiyopaW82V6Ig" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_dCXfQKRTEeiyopaW82V6Ig" tag="package filter" value=""/>
+    <taggedValue xmi:id="_dCdl4KRTEeiyopaW82V6Ig" tag="Status" value=""/>
+    <taggedValue xmi:id="_dCdl4aRTEeiyopaW82V6Ig" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_dCdl4qRTEeiyopaW82V6Ig" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_dCdl46RTEeiyopaW82V6Ig" tag="Description" value=""/>
+    <taggedValue xmi:id="_dCdl5KRTEeiyopaW82V6Ig" tag="Author" value=""/>
+    <taggedValue xmi:id="_dCdl5aRTEeiyopaW82V6Ig" tag="otherParameter"/>
+    <taggedValue xmi:id="_dC8HAKRTEeiyopaW82V6Ig" tag="DB ProductName" value="Oracle"/>
+    <taggedValue xmi:id="_dC8HAaRTEeiyopaW82V6Ig" tag="DB ProductVersion" value="Oracle Database 12c Enterprise Edition Release 12.2.0.1.0 - 64bit Production"/>
+    <taggedValue xmi:id="_dC8HAqRTEeiyopaW82V6Ig" tag="DB IdentifierQuoteString" value="&quot;"/>
+    <parameters xmi:id="_dCPjcaRTEeiyopaW82V6Ig" key="CONN_PARA_KEY_USERNAME" value="context.connection_to_DB_Login"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_15_dIKR0EeiyopaW82V6Ig" name="BL_CL_DM" dataManager="_dCOVUKRTEeiyopaW82V6Ig">
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_5uqooKR0EeiyopaW82V6Ig" name="FILE_NAMES" id="_5ub_IKR0EeiyopaW82V6Ig" label="FILE_NAMES" tableType="TABLE">
+      <feature xsi:type="relational:TdColumn" xmi:id="_5uqooaR0EeiyopaW82V6Ig" name="FILENAME" label="FILENAME" length="50" sourceType="VARCHAR2" talendType="id_String">
+        <taggedValue xmi:id="_5uqooqR0EeiyopaW82V6Ig" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_5uqoo6R0EeiyopaW82V6Ig" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_5urPsKR0EeiyopaW82V6Ig" name="VARCHAR2" numericPrecisionRadix="10" javaDataType="12" nullable="columnNullable"/>
+      </feature>
+    </ownedElement>
+  </orgomg.cwm.resource.relational:Schema>
+</xmi:XMI>

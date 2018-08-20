@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_55mwUKRTEeiyopaW82V6Ig" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_55mwUaRTEeiyopaW82V6Ig" comment="path" name="file_path" prompt="file_path?" promptNeeded="false" type="id_Directory" value="D:\Aryna_Kandrashevich\Talend\Topic 03\input"/>
+</talendfile:ContextType>
