@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_NXgasKXZEei3Q85j2X8eTw" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_NXgasaXZEei3Q85j2X8eTw" comment="path" name="directory" prompt="directory?" promptNeeded="false" type="id_Directory" value="D:\Aryna_Kandrashevich\Talend\Topic 05 Exit Task"/>
+</talendfile:ContextType>
